@@ -1,0 +1,70 @@
+:root {
+  --colore-primario: #89a0e4;
+  --colore-secondario: #a087e0;
+  --colore-terziario: #e587bf;
+  --colore-accento: #d6eb0c;
+}
+
+body {
+  margin: 50px !important;
+  background-color: var(--colore-primario) !important;
+  font-family: "Roboto Condensed", serif !important;
+}
+a {
+  color: var(--colore-accento) !important;
+}
+
+section {
+  padding: 30px 30px 80px;
+}
+
+.custom-bg {
+  background-color: #89a0e4 !important;
+}
+
+nav img {
+  width: 300px !important;
+}
+
+nav ul {
+  padding-right: 30px;
+}
+
+nav li {
+  margin-left: 30px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.job-title {
+  color: #d6eb0c;
+  font-size: 80px;
+  line-height: 60px;
+}
+.box-1 {
+  padding: 0 100px 0;
+}
+#about-me {
+  background-color: white;
+  border-radius: 10px;
+}
+
+footer {
+  color: white;
+  margin-top: 100px;
+}
+
+.footer-main {
+  padding: 0 100px 0;
+  border-bottom: 1px solid var(--colore-accento);
+}
+
+footer li {
+  list-style: none;
+}
+
+footer span {
+  font-size: 12px;
+  opacity: 80%;
+  text-align: center !important;
+}
