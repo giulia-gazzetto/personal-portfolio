@@ -17,8 +17,8 @@
   </head>
   <body>
     <header>
-    <container>
-    <nav class="navbar navbar-expand-lg custom-bg">
+    
+    <nav class="navbar navbar-expand-lg custom-bg m-5">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
     <img src="/img/GiuliaGazzetto.png" alt="GiuliaGazzetto" class="logo">
@@ -42,10 +42,10 @@
     </div>
   </div>
 </nav>
-</container>
+
 </header>      
 
-<section id="home">
+<section id="home" class="container">
         <div class="row box-1">
           <div class="col-6 p-5 align-self-center">
             <h3>I'm Giulia, a <em>junior</em></h3>
@@ -56,26 +56,35 @@
           </div>
         </div>
       </section>
-      <section id="about-me">
-        <h1>About me</h1>
-        <div class="row">
-          <div class="col-6">
-            <p >
-              Hi! I’m Giulia, a passionate Junior Front-end Developer from Italy, with a knack for creating captivating and functional digital experiences. When I’m not deep in code, you’ll find me exploring new technologies, refining my personal projects, or indulging in my love for sewing and writing stories. Oh, and I’m always on a quest for the perfect coffee.
-            </p>
-            <button>See my Resume</button>
-          </div>
-          <div class="col-6">
-            <h3>What I use</h3>
-          </div>
-        </div>
-      </section>
-      <section id="my-works">
+
+     <section id="about-me" class="about-me" >
+  <h1 class="text-center text-uppercase">About me</h1>
+  <div class="row m-5">
+    <div class="col-6 custom-bg-2 p-3">
+      <p>
+        Hi! I’m Giulia, a passionate Junior Front-end Developer from Italy, with a knack for creating captivating and functional digital experiences. When I’m not deep in code, you’ll find me exploring new technologies, refining my personal projects, or indulging in my love for sewing and writing stories. Oh, and I’m always on a quest for the perfect coffee.
+      </p>
+      <button class="btn-style-1">Check my cv</button>
+    </div>
+    <div class="col-6">
+      <h3>What I use</h3>
+      <p>
+        Frameworks & Libraries: React.js, Bootstrap
+Responsive Development: Designing layouts that adapt seamlessly to any device
+HTML5, CSS3, JavaScript (ES6+): The foundation for building modern and dynamic websites
+      </p>
+    </div>
+  </div>
+</section>
+
+
+      <section id="my-works" >
         <h1>My Works</h1>
         <button>See my projects</button>
         or
         <button>See on Github</button>
       </section>
+
 
       <section id="contact">
         <h1>Contacts</h1>
@@ -85,6 +94,7 @@
           </div>
         </div>
       </section>
+
 
       <footer>
         <div class="row footer-main ">

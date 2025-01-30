@@ -6,24 +6,36 @@
 }
 
 body {
-  margin: 50px !important;
   background-color: var(--colore-primario) !important;
   font-family: "Roboto Condensed", serif !important;
 }
+
 a {
   color: var(--colore-accento) !important;
 }
 
 section {
   padding: 30px 30px 80px;
+  margin: 0 50px 0;
 }
 
 .custom-bg {
   background-color: #89a0e4 !important;
 }
+.custom-bg-2 {
+  background-color: var(--colore-secondario);
+  border-radius: 20px;
+}
 
 nav img {
   width: 300px !important;
+}
+
+nav a {
+  color: white !important;
+}
+nav a:hover {
+  color: var(--colore-accento) !important;
 }
 
 nav ul {
@@ -44,9 +56,56 @@ nav li {
 .box-1 {
   padding: 0 100px 0;
 }
-#about-me {
+.about-me {
   background-color: white;
-  border-radius: 10px;
+  padding: 50px 0;
+  width: 100vw;
+  margin: 0;
+  padding: 50px 200px;
+}
+
+/*.btn-style-1 {
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: var(--colore-secondario);
+  border-radius: 3px;
+  border: none;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+} */
+
+.btn-style-1 {
+  width: 65px; /* Larghezza */
+  height: 65px; /* Altezza uguale per fare un cerchio */
+  background-color: var(--colore-accento); /* Colore di sfondo */
+  border: none;
+  border-radius: 50%; /* Rende il bottone circolare */
+  margin: 0 auto;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 85%;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-style-1:hover {
+  background-color: #b3c200; /* Cambia colore al passaggio */
+}
+
+.about-me h3 {
+  font-size: 20px;
+  color: var(--colore-secondario);
+  text-transform: uppercase;
 }
 
 footer {
