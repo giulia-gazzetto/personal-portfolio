@@ -49,7 +49,7 @@ nav li {
 }
 
 .job-title {
-  color: #d6eb0c;
+  color: var(--colore-accento);
   font-size: 80px;
   line-height: 60px;
 }
