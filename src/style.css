@@ -20,11 +20,10 @@ section {
 }
 
 .custom-bg {
-  background-color: #89a0e4 !important;
+  background-color: var(--colore-primario) !important;
 }
 .custom-bg-2 {
   background-color: var(--colore-secondario);
-  border-radius: 20px;
 }
 
 nav img {
