@@ -8,6 +8,7 @@
 body {
   background-color: var(--colore-primario) !important;
   font-family: "Roboto Condensed", serif !important;
+  color: black;
 }
 
 a {
@@ -22,8 +23,38 @@ section {
 .custom-bg {
   background-color: var(--colore-primario) !important;
 }
-.custom-bg-2 {
+
+.about-me-section {
+  background-color: white;
+  padding: 50px 0;
+  width: 100vw;
+  margin: 0;
+  padding: 100px 200px;
+}
+
+.project-section {
   background-color: var(--colore-secondario);
+  padding: 50px 0;
+  width: 100vw;
+  margin: 0;
+  padding: 150px 200px;
+}
+
+.conctact-form-section {
+  background-color: #faf4f7;
+  padding: 50px 0;
+  width: 100vw;
+  margin: 0;
+  padding: 150px 200px;
+}
+
+.contact-box {
+  background-color: white;
+}
+
+.conctact-form-section h1 {
+  color: var(--colore-terziario);
+  font-weight: 800;
 }
 
 nav img {
@@ -61,28 +92,6 @@ nav li {
 .box-1 {
   padding: 0 100px 0;
 }
-.about-me {
-  background-color: white;
-  padding: 50px 0;
-  width: 100vw;
-  margin: 0;
-  padding: 50px 200px;
-}
-
-/*.btn-style-1 {
-  width: auto;
-  display: block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  background: var(--colore-secondario);
-  border-radius: 3px;
-  border: none;
-  font-family: "Roboto Condensed";
-  font-weight: 700;
-  font-size: 12px;
-  text-transform: uppercase;
-  color: white;
-} */
 
 .btn-style-1 {
   width: 65px; /* Larghezza */
@@ -107,18 +116,9 @@ nav li {
   background-color: #b3c200; /* Cambia colore al passaggio */
 }
 
-.about-me h3 {
-  font-size: 20px;
-  color: var(--colore-secondario);
-  text-transform: uppercase;
-}
-
-footer {
-  color: white;
-  margin-top: 100px;
-}
-
 .footer-main {
+  color: white;
+  margin-top: 100px !important;
   padding: 0 100px 0;
   border-bottom: 1px solid var(--colore-accento);
 }
