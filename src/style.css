@@ -1,7 +1,7 @@
 :root {
-  --colore-primario: #89a0e4;
-  --colore-secondario: #a087e0;
-  --colore-terziario: #e587bf;
+  --colore-primario: #a087e0;
+  --colore-secondario: #a752aa;
+  --colore-terziario: #ff692a;
   --colore-accento: #d6eb0c;
 }
 
@@ -39,6 +39,11 @@ nav a:hover {
 
 nav ul {
   padding-right: 30px;
+  border-color: transparent !important;
+}
+
+nav button {
+  border: none !important;
 }
 
 nav li {
@@ -48,9 +53,10 @@ nav li {
 }
 
 .job-title {
-  color: var(--colore-accento);
-  font-size: 80px;
+  color: black;
+  font-size: 75px;
   line-height: 60px;
+  font-weight: 800;
 }
 .box-1 {
   padding: 0 100px 0;
