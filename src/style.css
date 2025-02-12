@@ -5,6 +5,10 @@
   --colore-accento: #d6eb0c;
 }
 
+.orange-text {
+  color: var(--colore-terziario);
+}
+
 body {
   background-color: var(--colore-primario) !important;
   font-family: "Roboto Condensed", serif !important;
@@ -15,13 +19,19 @@ a {
   color: var(--colore-accento) !important;
 }
 
+h1 {
+  font-weight: 800 !important;
+}
 section {
-  padding: 30px 30px 80px;
-  margin: 0 50px 0;
+  margin: 0 !important;
 }
 
 .custom-bg {
   background-color: var(--colore-primario) !important;
+}
+
+.home-section {
+  padding: 50px 0 50px 250px;
 }
 
 .about-me-section {
@@ -30,6 +40,12 @@ section {
   width: 100vw;
   margin: 0;
   padding: 100px 200px;
+}
+
+.tech-box {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
 }
 
 .project-section {
@@ -52,11 +68,6 @@ section {
   background-color: white;
 }
 
-.conctact-form-section h1 {
-  color: var(--colore-terziario);
-  font-weight: 800;
-}
-
 nav img {
   width: 300px !important;
 }
@@ -71,6 +82,7 @@ nav a:hover {
 nav ul {
   padding-right: 30px;
   border-color: transparent !important;
+  background-color: transparent !important;
 }
 
 nav button {
@@ -83,14 +95,38 @@ nav li {
   font-size: 18px;
 }
 
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-box {
+  position: relative;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.image img {
+  width: 350px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+.text {
+  position: absolute;
+  text-align: left;
+  left: -120px;
+}
+
 .job-title {
   color: black;
   font-size: 75px;
   line-height: 60px;
-  font-weight: 800;
-}
-.box-1 {
-  padding: 0 100px 0;
 }
 
 .btn-style-1 {
@@ -131,4 +167,14 @@ footer span {
   font-size: 12px;
   opacity: 80%;
   text-align: center !important;
+}
+
+@media (max-width: 576px) {
+  .about-me-section {
+    background-color: white;
+    padding: 50px 0;
+    width: 100vw;
+    margin: 0;
+    padding: 50px 30px;
+  }
 }
